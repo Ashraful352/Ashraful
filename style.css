@@ -8,7 +8,7 @@ body {
   background: #fdfdfd; 
   color: #333; line-height: 1.6; 
 }
-h2 { 
+h2{ 
   font-size: 28px; 
   margin-bottom: 20px; 
   text-align: center; 
@@ -229,5 +229,18 @@ text-decoration: none;
     flex-direction: column;
     align-items: center;
     gap: 10px;
+  }
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn {
+    width: 80%;      /* Buttons will be wide enough for touch */
+    max-width: 300px; /* Optional: limit max width */
+  }
+  .section-title{
+    font-size: 18px;
+    text-align:center;
   }
 }
