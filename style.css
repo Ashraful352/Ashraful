@@ -48,9 +48,10 @@ section {
 }
 .navbar { 
   display: flex; 
-  justify-content: space-between; 
+  justify-content:center; 
   align-items: center; 
   padding: 20px 0; 
+  
 }
 .logo { 
   font-size: 24px; 
@@ -63,9 +64,29 @@ section {
    }
 .nav-links a { 
 color: #0077cc; 
-font-weight: 500;  
+font-weight: 300;  
 text-decoration: none;
+margin-left: 10px;
 }
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-left: auto;
+}
+
+.social-icons a {
+  font-size: 20px;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #0077b5; /* LinkedIn blue */
+}
+
 
 .hero-content { 
   display: flex; 
@@ -243,4 +264,27 @@ text-decoration: none;
     font-size: 18px;
     text-align:center;
   }
+  .social-icons {
+  display: none; /* desktop by default hidden */
+}
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 24px;
+    padding: 10px 0;
+    background-color: #f9f9f9;
+  }
+
+  .social-icons a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  .social-icons a:hover {
+    color: #0077b5;
+  }
+}
 }
